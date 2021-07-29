@@ -1,0 +1,31 @@
+{
+  "name": "gravity_dummy",
+  "version": "1.0.0",
+  "description": "Dummy repo used to test the Gravity Github App",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplabs/gravity_dummy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simplabs/gravity_dummy/issues"
+  },
+  "homepage": "https://github.com/simplabs/gravity_dummy#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.171",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
