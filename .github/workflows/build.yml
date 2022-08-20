@@ -7,14 +7,14 @@ jobs:
     name: with Typescript
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
       - name: Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93 # tag=v3
       - name: install dependencies
         run: npm ci
       - name: install dependencies
         run: npm run build
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 # tag=v3
         with:
           name: my-artifact
           path: dist
