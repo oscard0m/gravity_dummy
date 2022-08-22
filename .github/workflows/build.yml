@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93 # tag=v3
       - name: install dependencies
         run: npm ci
-      - name: install dependencies
+      - name: Build project
         run: npm run build
       - uses: actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8 # tag=v3
         with:
