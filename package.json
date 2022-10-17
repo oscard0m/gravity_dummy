@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simplabs/gravity_dummy.git"
+    "url": "git+https://github.com/mainmatter/gravity_dummy.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/simplabs/gravity_dummy/issues"
+    "url": "https://github.com/mainmatter/gravity_dummy/issues"
   },
-  "homepage": "https://github.com/simplabs/gravity_dummy#readme",
+  "homepage": "https://github.com/mainmatter/gravity_dummy#readme",
   "dependencies": {
     "lodash": "^4.17.21"
   },
