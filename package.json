@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/simplabs/gravity_dummy#readme",
   "dependencies": {
+    "cowsay": "^1.5.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
