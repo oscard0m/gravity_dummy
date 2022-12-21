@@ -20,14 +20,12 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: install dependencies
         run: npm ci
-      - name: install gravity CI
-        run: npm i -g @gravityci/cli
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Build project
         run: npm run build
       - name: Run Gravity
-        run: gravityci "dist/**/*"
+        run: npm run gravityci "dist/**/*"
         env:
           GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
           HOST: ${{ secrets.HOST }}
