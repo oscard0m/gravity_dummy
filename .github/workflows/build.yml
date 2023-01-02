@@ -29,3 +29,4 @@ jobs:
         env:
           GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
           HOST: ${{ secrets.HOST }}
+          GRAVITY_PR_ID: ${{ env.GITHUB_PULL_REQUEST }}
