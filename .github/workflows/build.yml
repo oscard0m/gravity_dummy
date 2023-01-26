@@ -28,5 +28,4 @@ jobs:
         run: npm run gravityci "dist/**/*"
         env:
           GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
-          HOST: ${{ secrets.HOST }}
-          GRAVITY_PR_ID: ${{ env.GITHUB_PULL_REQUEST }}
+          GRAVITY_HOST: ${{ vars.GRAVITY_HOST }}
