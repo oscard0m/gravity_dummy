@@ -1,5 +1,3 @@
-import { merge } from "lodash";
+import lodash from "lodash";
 
-console.log(merge({ a: 1 }, { b: 2 }));
-console.log(merge({ a: 1 }, { b: 2 }));
-console.log(merge({ a: 1 }, { b: 2 }));
+console.log(lodash.merge({ a: 1 }, { b: 2 }));
