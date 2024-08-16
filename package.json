@@ -25,7 +25,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@gravityci/cli": "git+https://github.com/mainmatter/gravity.git#d70c7819fe9f25e45dff8c8864299bf6863021e0",
+    "@gravityci/cli": "alpha",
     "@types/lodash": "^4.14.171",
     "ts-node": "^10.1.0",
     "typescript": "^5.0.0"
