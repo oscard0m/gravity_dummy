@@ -19,8 +19,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - name: install dependencies
         run: npm ci
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Build project
         run: npm run build
       - name: Run Gravity
