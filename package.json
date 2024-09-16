@@ -25,7 +25,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@gravityci/cli": "0.0.2",
+    "@gravityci/cli": "0.0.3",
     "@types/lodash": "^4.14.171",
     "ts-node": "^10.1.0",
     "typescript": "^5.0.0"
