@@ -25,3 +25,4 @@ jobs:
         run: npm run gravityci "dist/**/*"
         env:
           GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
+          GRAVITY_HOST: ${{ vars.GRAVITY_HOST }}
