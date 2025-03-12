@@ -22,13 +22,9 @@
   },
   "homepage": "https://github.com/mainmatter/gravity_dummy#readme",
   "dependencies": {
-    "lodash": "^4.17.21",
     "moment": "^2.30.1"
   },
   "devDependencies": {
     "@gravityci/cli": "0.0.8",
-    "@types/lodash": "^4.14.171",
-    "ts-node": "^10.1.0",
-    "typescript": "^5.0.0"
   }
 }
