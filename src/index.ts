@@ -1,3 +1,6 @@
-import lodash from "lodash";
+import moment from "moment";
 
-console.log(lodash.merge({ a: 1 }, { b: 3 }, { c: 4 }, { d: 5 }, { e : 8}));
+const date = moment("2016-01-01");
+const oneWeekLater = date.add(1, "week");
+
+console.log(oneWeekLater.format("YYYY-MM-DD"));
