@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/mainmatter/gravity_dummy#readme",
   "dependencies": {
-    "moment": "^2.30.1"
+    "date-fns": "^4.1.0"
   },
   "devDependencies": {
     "@gravityci/cli": "0.0.8",
