@@ -1,6 +1,6 @@
-import { parseISO, addWeeks, format } from "date-fns";
+import moment from "moment";
 
-const date = parseISO("2025-03-12");
-const oneWeekLater = addWeeks(date, 1);
+const date = moment("2025-03-12");
+const oneWeekLater = date.add(1, "week");
 
-console.log(format(oneWeekLater, "yyyy-MM-dd"));
+console.log(oneWeekLater.format("YYYY-MM-DD"));
