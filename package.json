@@ -26,7 +26,6 @@
     "date-fns": "^4.1.0"
   },
   "devDependencies": {
-    "@gravityci/cli": "0.0.8",
     "esbuild": "^0.25.1"
   }
 }
