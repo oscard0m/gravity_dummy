@@ -22,7 +22,7 @@ jobs:
       - name: Build project
         run: npm run build
       - name: Run Gravity
-        run: npx @gravityci/cli dist/**/*
+        run: npx @gravityci/cli ./dist/
         env:
           GRAVITY_TOKEN: ${{ secrets.GRAVITY_TOKEN }}
           GRAVITY_HOST: ${{ vars.GRAVITY_HOST }}
